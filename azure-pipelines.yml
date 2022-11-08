@@ -33,7 +33,9 @@ steps:
       # Write your commands here
       
       
-      sshpass -p "&UJm8ik,6yhn1qaz" ssh -o StrictHostKeyChecking=no oracle@150.136.228.104
+      sshpass -p "&UJm8ik,6yhn1qaz" ssh -o StrictHostKeyChecking=no oracle@150.136.228.104 >> EOF 
+        uname -A 
+         EOF
       
       
       
