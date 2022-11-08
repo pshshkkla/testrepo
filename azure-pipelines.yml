@@ -32,7 +32,7 @@ steps:
     script: |
       # Write your commands here
       
-       sshpass  -p &UJm8ik,6yhn1qaz ssh -tt -o StrictHostKeyChecking=no grid@150.136.228.104 'crsctl stat res -t'
+       sshpass  -p "&UJm8ik,6yhn1qaz" ssh -tt -o StrictHostKeyChecking=no grid@150.136.228.104 'crsctl stat res -t'
       
       
       
