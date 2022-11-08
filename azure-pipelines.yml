@@ -20,7 +20,7 @@ steps:
     script: |
      
       
-      echo 'This is a new bash line + $date '
+      echo 'This is a new bash line' + $date 
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
