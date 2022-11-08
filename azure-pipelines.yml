@@ -33,11 +33,12 @@ steps:
       # Write your commands here
       
        sshpass  -p "$(PWD)" ssh -tt -o StrictHostKeyChecking=no grid@150.136.228.104 'crsctl stat res -t'
+
       
       
       
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    oci iam region list --output table
   displayName: 'Run a multi-line script'
