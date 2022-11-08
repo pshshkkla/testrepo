@@ -31,7 +31,10 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      ssh -i oracle@150.136.228.104 'uname-A'
+      
+      
+      sshpass -p "&UJm8ik,6yhn1qaz" ssh -o StrictHostKeyChecking=no oracle@150.136.228.104
+      
       
       
 
