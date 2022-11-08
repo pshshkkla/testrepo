@@ -8,8 +8,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: instance-azuredevops-359949
+pool: AG1
+  
 
 steps:
 - script: echo Hello, world!
