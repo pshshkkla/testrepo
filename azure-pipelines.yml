@@ -34,11 +34,8 @@ steps:
       
        sshpass  -p "$(PWD)" ssh -tt -o StrictHostKeyChecking=no grid@150.136.228.104 'crsctl stat res -t'
 
-      
-      
-      
+- task: Bash@3
+  inputs:
+     targetType: 'inline'
+     script: 'oci iam region list --output table'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    oci iam region list --output table
-  displayName: 'Run a multi-line script'
