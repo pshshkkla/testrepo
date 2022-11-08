@@ -33,7 +33,7 @@ steps:
       # Write your commands here
       ssh -i oracle@150.136.228.104 'uname-A'
       
-      bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh )"
+      
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
