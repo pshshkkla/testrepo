@@ -32,7 +32,7 @@ steps:
     script: |
       # Write your commands here
       
-      bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh --accept-all-defaults)"
+      bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh )"
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
