@@ -37,5 +37,5 @@ steps:
 - task: Bash@3
   inputs:
      targetType: 'inline'
-     script: 'oci iam region list --output table'
+     script: 'oci db db-system-upgrade-history list --db-system-id ocid1.dbsystem.oc1.iad.anuwcljsd5wtngaae2ptn3wibwyka3wzucocbcyixqfdo6cqck5ny5istciq'
 
